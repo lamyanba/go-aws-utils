@@ -3,7 +3,7 @@ Few aws tools/scripts in go
 
 # serverlist.go
 
-Looks up for instances in ec2 using tags. This is an example to look up for instance using tags whose Keys are Called Environment and Role. Serverlist list all the ec2 instances that Have the same value for Tag Keys Environment and Role
+An example of using aws-sdk-go for golang to look up/filter for instances in ec2 using tags. This is an example to look up for instance using tags whose Keys are Called Environment and Role. Serverlist list all the ec2 instances that Have the same value for Tag Keys Environment and Role
 
 		lyambem-MBP:go-intro lyambem$ ./serverlist -e dev -r api
 		+-----------+------------------------------------------+------------+------------+
